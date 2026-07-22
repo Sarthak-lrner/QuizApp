@@ -1,0 +1,47 @@
+# Gradle
+.gradle/
+
+# Local configuration
+local.properties
+
+# IDE
+.idea/caches/
+.idea/libraries/
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+.idea/deploymentTargetDropDown.xml
+.idea/shelf/
+.idea/compiler.xml
+
+# Module files
+*.iml
+
+# Build outputs
+build/
+*/build/
+
+# Native builds
+.externalNativeBuild/
+.cxx/
+
+# Generated files
+captures/
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+# Keystore files (IMPORTANT)
+*.jks
+*.keystore
+
+# Kotlin
+.kotlin/
+
+# Crashlytics
+com_crashlytics_export_strings.xml
+

@@ -1,0 +1,11 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+
+# User-specific
+/caches/
+/libraries/
+/deploymentTargetDropDown.xml
+
+# Generated
+/assetWizardSettings.xml
