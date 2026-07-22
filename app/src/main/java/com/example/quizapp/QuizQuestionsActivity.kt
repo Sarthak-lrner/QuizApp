@@ -48,6 +48,7 @@ class QuizQuestionsActivity : AppCompatActivity() {
         binding.tvProgress.text =
             "${currentQuestionIndex + 1}/${questionsList.size}"
         val currentQuestion = questionsList[currentQuestionIndex]
+        currentQuestion.options.shuffle()
         binding.btnSubmit.text = "Submit"
         binding.tvQuestion.text = currentQuestion.question
         binding.tvImage.setImageResource(currentQuestion.image)
